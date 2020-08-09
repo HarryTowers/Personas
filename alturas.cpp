@@ -30,11 +30,14 @@ cout<<"DESPLEGANDO ALTURAS CAPTURADAS"<<endl;
 			}
 		}
 	}
+cout<<"ESTATURA MAXIMA:"<<alturas[9]<<endl;
+cout<<"ESTATURA MINIMA:"<<alturas[0]<<endl;	
 	cout<<"LOS VALORES ORDENADOS DE MENOR A MAYOR SON: "<<endl;
 	for(int i=0;i<10;i++){
 		cout<<alturas[i]<<" "<<endl;
 	}
-		
+prom=suma/10;//Calculamos el promedio dividiendo la suma entre 10
+cout<<"EL PROMEDIO DE LAS ALTURAS ES:"<<prom<<endl;//Desplegamos el promedio en pantalla			
 system("pause");
 }
 
